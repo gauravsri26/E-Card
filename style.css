@@ -78,7 +78,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* background: linear-gradient(135deg, #e8f4f8, #a7a7ce); */
+    background: linear-gradient(135deg, #e8f4f8, #a7a7ce);
 }
 .card-bottom .pic-box img{
     height: 320px;
