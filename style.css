@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-box{
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius:  2rem;
+    background-color: #2e2e4e;
+    box-shadow: 15px 15px 1px rgba(209, 95, 2, 0.7);
+}
+.card-top{
+    height: 200px;
+    width: 100%;
+    background-color: #24243e;
+    border-radius: 2rem 2rem 0 0;
+    position: relative;
+}
+.card-title{
+    /* background-color: aliceblue;     */
+    position: absolute;
+    left: 1.5em;
+    top: 1.5em;
+}
+.card-title h2{
+    font-size: 2em;
+    font-weight: 700;
+    color: #a7a7ce;
+}
+.card-title h2 span{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #c9a84c ;
+}
+.card-top .Job-description{
+    /* background-color: #c9a84c; */
+    position: absolute;
+    left: 1.5em;
+    top: 5.5em;
+    margin-top: .5em;
+}
+.card-top .Job-description p{
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    color: #a7a7ce;
+}
+.card-top .Job-description span{
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    color: #84815c;
+}
+/* Card bottom CSS*/
+.card-bottom{
+    height: auto;
+    /* background-color: #24243e; */
+    border-radius: 0 0 2.5rem 2.5rem;
+    position: relative;
+}
+.card-bottom .pic-box{
+    height: 70%;
+    width: 90%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background: linear-gradient(135deg, #e8f4f8, #a7a7ce); */
+}
+.card-bottom .pic-box img{
+    height: 320px;
+    width: 320px;
+    border-radius: 30px;
+}
+.card-bottom .social{
+    font-size: 2em;
+    margin: .5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #a7a7ce; */
+}
+.card-bottom .social .insta a{
+    text-decoration: none;
+    color: #E1306C;
+}
+.card-bottom .social .github a{
+    text-decoration: none;
+    color: #fff;
+}
+.card-bottom .social .twitter a{
+    text-decoration: none;
+    color: #000000;
+}
+.card-bottom .social .linkedin a{
+    text-decoration: none;
+    color: #0A66C2;
+}
