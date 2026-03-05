@@ -19,7 +19,7 @@ body{
 .card-box{
     height: auto;
     width: 80%;
-    max-width: 400px;
+    max-width: 450px;
     border-radius:  2rem;
     background-color: #2e2e4e;
     box-shadow: 15px 15px 1px rgba(209, 95, 2, 0.7);
@@ -52,7 +52,7 @@ body{
     position: absolute;
     left: 1.5em;
     top: 5.5em;
-    margin-top: .5em;
+    margin-top: 1.5em;
 }
 .card-top .Job-description p{
     font-size: 1rem;
